@@ -1,0 +1,169 @@
+*{
+    padding:0;margin:0;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background: #020315;
+    
+}
+.btn{
+    width: 264px;
+    height: 95px;
+    overflow:hidden !important;
+    
+}
+
+a{
+    width: 264px;
+    height: 95px;
+    box-shadow: 0px 1px 5px 0px #607d8b45;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: system-ui;
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden !important;
+
+    
+}
+
+
+a:before{
+    content: "";
+    position: absolute;
+    top: 397px;
+    left: 507px;
+    width: 134px;
+    background: #063252;
+    height: 95px;
+    z-index: -999;
+    
+    
+    
+    
+}
+
+
+span:nth-child(1){
+    position: absolute;
+    top: 393px;
+    left: 541px;
+    width: 142px;
+    height: 4px;
+    background: linear-gradient(to right,#0c002b,#1779ff);
+
+    animation: animate1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+@keyframes animate1{
+    
+    0%{
+           transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+ 
+}
+
+
+
+
+span:nth-child(2){
+    position: absolute;
+    top: 301px;
+    left: 771px;
+    width: 3px;
+    height: 95px;
+    background: linear-gradient(to bottom,#0c002b,#1779ff);
+
+     animation: animate2;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+@keyframes animate2{
+    
+    0%{
+           transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+ 
+}
+
+
+span:nth-child(3){
+    position: absolute;
+top: 492px;
+    left: 542px;
+    width: 142px;
+    height: 3px;
+    background: linear-gradient(to left,#0c002b,#1779ff);
+
+        animation: animate3;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes animate3{
+    
+    0%{
+           transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+ 
+}
+
+
+
+span:nth-child(4){
+    position: absolute;
+    top: 397px;
+    left: 505px;
+    width: 3px;
+    height: 95px;
+    background: linear-gradient(to top,#0c002b,#1779ff);
+
+         animation: animate4;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+@keyframes animate4{
+    
+    0%{
+           transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+ 
+}
+
+
+
+
